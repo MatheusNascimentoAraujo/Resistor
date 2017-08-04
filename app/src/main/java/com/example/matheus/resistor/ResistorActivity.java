@@ -204,6 +204,7 @@ package com.example.matheus.resistor;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -214,11 +215,19 @@ public class ResistorActivity extends AppCompatActivity {
     private float value, value2, value3;
     private String value4;
 
+=======
+
+public class ResistorActivity extends AppCompatActivity {
+
+>>>>>>> b81d2c4d37197495c5e3fe1a5e7ebb594e3363a7
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.newlayout);
+<<<<<<< HEAD
 
         output = (TextView) findViewById(R.id.textOutput);
+=======
+>>>>>>> b81d2c4d37197495c5e3fe1a5e7ebb594e3363a7
     }
 }
